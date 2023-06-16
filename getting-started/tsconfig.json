@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    // 타입스크립트에서 자바스크립트로 변환할 때의 세부사항을 결정
+    "checkJs": true, // @ts-check 주석과 동일한것임
+    "allowJs": true,
+    "noImplicitAny": true // 모든 타입에 대해서 최소 any라도 정의를 해줘야 한다는 옵션!
+  }
+}
