@@ -7,7 +7,7 @@ interface User {
 }
 
 // 변수에 인터페이스 활용
-var daehyun: User = {
+let daehyun: User = {
   name: "woodaehyun",
   age: 30,
 };
@@ -29,7 +29,7 @@ interface SumFunction {
   (a: number, b: number): number;
 }
 
-var sum: SumFunction = (a: number, b: number) => {
+let sum: SumFunction = (a: number, b: number) => {
   return a + b;
 };
 
@@ -38,7 +38,7 @@ interface StringArr {
   [index: number]: string;
 }
 
-var stringArray: StringArr = ["a", "b", "c"];
+let stringArray: StringArr = ["a", "b", "c"];
 stringArray[0] = "d";
 
 // 딕셔너리 패턴
@@ -46,7 +46,7 @@ interface StringObj {
   [key: string]: number;
 }
 
-var StringObject: StringObj = {
+let StringObject: StringObj = {
   name: 123,
   address: 29392,
 };
@@ -69,7 +69,7 @@ interface Developer extends Person {
   language: string;
 }
 
-var developer: Developer = {
+let developer: Developer = {
   language: "typescript",
   name: "woodaehyun",
   age: 30,

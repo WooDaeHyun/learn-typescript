@@ -4,10 +4,10 @@ const string = "hello";
 // ****변수****를 선언하고 변수의 타입을 지정하는 방식이다.
 
 // ----- 1. TS 문자열 -----
-const str: string = "hello";
+const str = "hello";
 
 // ----- 2. TS 숫자 -----
-const number: number = 10;
+const number = 10;
 
 // ----- 3. TS 배열 -----
 // array변수는 Array타입이고 number타입의 요소만 들어갈 수 있다.
@@ -37,7 +37,7 @@ const object: { name: string; age: number } = {
 };
 
 // -----6. TS Boolean -----
-const isTrue: boolean = true;
+const isTrue = true;
 
 /* 
 1. string
@@ -49,22 +49,22 @@ const isTrue: boolean = true;
 */
 
 // 문자열
-var a: string = "hello";
+let a = "hello";
 // 숫자
-var b: number = 92;
+let b = 92;
 // 객체
-var c: object = {};
+let c: object = {};
 // 객체
-var d: { name: string; age: number } = { name: "hello", age: 92 };
+let d: { name: string; age: number } = { name: "hello", age: 92 };
 // 배열
-var e: Array<string> = ["2", "3", "4"];
+let e: Array<string> = ["2", "3", "4"];
 // 배열
-var f: Array<object> = [{}, {}];
+let f: Array<object> = [{}, {}];
 // 배열
-var g: string[] = ["s", "d", "e"];
+let g: string[] = ["s", "d", "e"];
 // 튜플
-var h: [string, number, boolean] = ["d", 92, false];
+let h: [string, number, boolean] = ["d", 92, false];
 // 불리언
-var z: boolean = false;
+let z = false;
 
-var kk: {} = 92;
+let kk = true;
