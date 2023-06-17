@@ -65,12 +65,12 @@ interface Person {
 //   language: string;
 // }
 
-interface Developer extends Person {
-  language: string;
-}
+// interface Developer extends Person {
+//   language: string;
+// }
 
-let developer: Developer = {
-  language: "typescript",
-  name: "woodaehyun",
-  age: 30,
-};
+// let developer: Developer = {
+//   language: "typescript",
+//   name: "woodaehyun",
+//   age: 30,
+// };
