@@ -54,7 +54,7 @@ let StringObject: StringObj = {
 StringObject["name"] = 1929;
 
 // 인터페이스 확장
-interface Person {
+interface Personn {
   name: string;
   age: number;
 }
@@ -65,12 +65,12 @@ interface Person {
 //   language: string;
 // }
 
-// interface Developer extends Person {
-//   language: string;
-// }
+interface Developerr extends Personn {
+  language: string;
+}
 
-// let developer: Developer = {
-//   language: "typescript",
-//   name: "woodaehyun",
-//   age: 30,
-// };
+let dddeveloper: Developerr = {
+  language: "typescript",
+  name: "woodaehyun",
+  age: 30,
+};
